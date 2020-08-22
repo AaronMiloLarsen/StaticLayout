@@ -1,0 +1,197 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+/* Masthead Box              (NEED TO FIX IMAGE WITHIN CONTAINER) */
+
+.masthead-container {
+    height: 600px;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    display: block;
+    background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg);
+    background-size: contain;
+
+}
+
+/* Nav Bar */
+
+header {
+    margin: 0px;
+    float: right; 
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#login {
+    text-decoration: none;
+}
+
+#login.hover {
+    color: gray;
+}
+/* Masthead */
+
+.masthead {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-right: 109px;
+    margin-bottom: 0px;
+    margin-left: 109px;
+    text-align:center;
+}
+
+.pre-headline {
+   font-size: 12px;
+   font-weight: 600;
+   color: #2DBD9D;
+   text-transform: uppercase;
+   padding-bottom: 8px;
+}
+
+.sub-headline {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin:16px;
+}
+
+.secondary-message{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 19px;
+}
+
+.masthead-input{
+    margin: 0 150px 0 150px;
+    padding-top: 10px;
+}
+
+#freetrial {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    border-radius: 5px 5px 5px 5px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+#freetrial:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.legal {
+    font-size: 10px;
+    opacity: 60%;
+    padding-top:10px;
+}
+
+/* RIBBON */
+
+.ribbon {
+    height:100px;
+    width: 100vw;
+    margin-top: 0px;
+    padding: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(318.68deg,#0F495C 0%,#0D3640 49.72%,#08141F 100%);
+}
+
+/* RIBBON BOX 1 */
+.logos {
+    flex: 1;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logos img {
+    max-width: 300px;
+    vertical-align: middle;
+}
+
+/* RIBBON BOX 2 */
+
+.bundle {
+    flex: 1;
+}
+
+.bundle-save {
+    color: #2DBD9D;
+    font-size: 12px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bundle-price {
+    font-size:20px;
+    line-height: 24px;
+}
+
+.more-details {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+/* RIBBON BOX 3 */
+
+.bundle-button {
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+#bundle {
+    font: 14px Arial;
+    font-weight: 400;
+    font-style: bold;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#bundle:hover{
+    cursor: pointer;
+}
+
+#terms {
+    font-size: 10px;
+    opacity: 60%;
+}
+
+/* MEDIA DISPLAY */
+
+.media {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#content {
+    height: 100%;
+    width: auto;
+}
